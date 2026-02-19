@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Final Site | Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#maincontent">Skip to Main Content</a>
+
+  <header>
+    <div class="container brand">
+      <h1>My Final Site</h1>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="maincontent" class="container">
+    <section class="card">
+      <h2>Gallery (6 images)</h2>
+      <p>
+        Images are styled with border, padding, and border-radius. Every other image
+        has a different border radius using <strong>nth-child</strong>.
+      </p>
+
+      <div class="gallery-grid">
+        <figure>
+          <img src="images/g1.jpg" alt="A city street during sunset" />
+          <figcaption>Photo 1</figcaption>
+        </figure>
+        <figure>
+          <img src="images/g2.jpg" alt="A mountain lake with reflections" />
+          <figcaption>Photo 2</figcaption>
+        </figure>
+        <figure>
+          <img src="images/g3.jpg" alt="A forest path in spring" />
+          <figcaption>Photo 3</figcaption>
+        </figure>
+        <figure>
+          <img src="images/g4.jpg" alt="Close-up of flowers" />
+          <figcaption>Photo 4</figcaption>
+        </figure>
+        <figure>
+          <img src="images/g5.jpg" alt="A calm beach with waves" />
+          <figcaption>Photo 5</figcaption>
+        </figure>
+        <figure>
+          <img src="images/g6.jpg" alt="Night city lights" />
+          <figcaption>Photo 6</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 My Final Site</p>
+    </div>
+  </footer>
+</body>
+</html>
